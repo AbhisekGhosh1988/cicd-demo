@@ -23,7 +23,7 @@ jobs:
     with:
       java-version: '21'
       working-directory: '.'
-      sonar-organization: 'AbhisekGhosh1988'
+      sonar-organization: 'abhisekghosh1988'
       sonar-project-key: 'AbhisekGhosh1988_cicd-demo'
 
     secrets:
