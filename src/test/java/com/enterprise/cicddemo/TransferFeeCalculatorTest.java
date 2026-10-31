@@ -23,7 +23,6 @@ class TransferFeeCalculatorTest {
 
         assertEquals(0, new BigDecimal("2.50").compareTo(fee));
     }
-
     @Test
     void shouldCalculateFeeAtFirstBoundary() {
 
