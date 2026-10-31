@@ -1,10 +1,10 @@
-
 name: Application CI
 
 on:
   push:
     branches:
       - 'feature/**'
+      - master
 
   pull_request:
     branches:
