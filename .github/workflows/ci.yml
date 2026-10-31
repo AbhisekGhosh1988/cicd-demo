@@ -1,0 +1,24 @@
+
+name: Application CI
+
+on:
+  push:
+    branches:
+      - 'feature/**'
+
+  pull_request:
+    branches:
+      - master
+
+permissions:
+  contents: read
+
+jobs:
+  centralized-build:
+    name: Centralized Maven CI
+
+    uses: AbhisekGhosh1988/enterprise-cicd-platform/.github/workflows/reusable-maven-build.yml@main
+
+    with:
+      java-version: '21'
+      working-directory: '.'
