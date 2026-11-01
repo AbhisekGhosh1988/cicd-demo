@@ -1,0 +1,12 @@
+.git
+.github
+.idea
+.mvn
+src
+*.iml
+HELP.md
+mvnw
+mvnw.cmd
+pom.xml
+target/*
+!target/cicd-demo-0.0.1-SNAPSHOT.jar
